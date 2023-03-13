@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Contoso.Extensions.Data" Version="1.0.12" />
+    <PackageReference Include="Core-Validation" Version="1.0.0" />
+    <PackageReference Include="KFrame" Version="1.0.5" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="SlackNet.AspNetCore" Version="0.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChatIngress.Slack\ChatIngress.Slack.csproj" />
+    <ProjectReference Include="..\ChatIngress.Teams\ChatIngress.Teams.csproj" />
+  </ItemGroup>
+
+</Project>
