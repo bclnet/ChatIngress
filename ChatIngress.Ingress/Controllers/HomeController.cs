@@ -5,6 +5,6 @@ namespace ChatIngress.Controllers
     [Route("[controller]")]
     public class HomeController : Controller
     {
-        [HttpGet] public IActionResult Get() => Content($"OK: {Config.Bot}");
+        [HttpGet] public IActionResult Get() => Content($"OK: {Config.ThisUrl}");
     }
 }

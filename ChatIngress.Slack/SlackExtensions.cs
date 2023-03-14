@@ -5,7 +5,7 @@ namespace ChatIngress.Slack
     /// <summary>
     /// SlackExtensions
     /// </summary>
-    public static class SlackExtensions
+    public static partial class SlackExtensions
     {
         /// <summary>
         /// Gets or sets the log.

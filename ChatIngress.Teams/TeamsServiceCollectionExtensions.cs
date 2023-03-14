@@ -28,7 +28,7 @@ namespace Microsoft.Extensions.DependencyInjection
         /// <param name="name">The name.</param>
         /// <returns>IServiceCollection.</returns>
         /// <exception cref="ArgumentNullException">services</exception>
-        public static IServiceCollection AddSlackContext(this IServiceCollection services, ITeamsConnectionString config, string name = null)
+        public static IServiceCollection AddTeamsContext(this IServiceCollection services, ITeamsConnectionString config, string name = null)
         {
             if (services == null) throw new ArgumentNullException(nameof(services));
             services.AddTransient<ITeamsService, TeamsService>();

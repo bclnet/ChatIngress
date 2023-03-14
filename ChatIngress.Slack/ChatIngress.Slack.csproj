@@ -2,13 +2,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <ApplicationIcon />
-    <OutputType>Library</OutputType>
-    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Contoso.Extensions" Version="1.0.10" />
     <PackageReference Include="Contoso.Extensions.Data" Version="1.0.12" />
+	<PackageReference Include="Dapper" Version="2.0.90" />
+	<PackageReference Include="ExcelTrans" Version="1.0.5" />
+	<PackageReference Include="MediatR" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
     <PackageReference Include="SlackNet" Version="0.8.2" />

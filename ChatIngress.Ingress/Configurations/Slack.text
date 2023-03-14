@@ -1,0 +1,38 @@
+APP HOME
+
+INCOMING WEBHOOKS
+Off
+
+INTERACTIVITY & SHORTCUTS
+- Interactivity -
+Request URL: https://RL/slack-api/action
+
+- Select Menus -
+Request URL: https://RL/slack-api/option
+
+
+SLASH COMMMANDS
+Command: /cmd
+Request URL: https://URL/slack-api/command
+Short Description: CMD slack commands
+
+
+OAUTH & PERMISSIONS
+- Bot Token Scopes -
+chat:write
+commands
+files:read
+files:write
+im:read
+im:write
+reactions:read
+reactions:write
+team:read
+users:read
+users:read.email
+
+- User Token Scopes -
+channels:write
+groups:write
+team:read
+users:read
